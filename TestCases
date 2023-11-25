@@ -1,0 +1,30 @@
+Keywords: 
+- P: Pass
+- F: Fail
+- WIP: Work In Progress
+
+Test Cases:
+
+No.   |   Sub-modules   | Expected Results                |   Test Results   |    Remarks    
+1.    |     Booting     | Able to boot server up using:   |        P         |
+      |                 |                                 |                  |
+2.    |    Home Page    | Able to view ClientList on      |        P         | 
+      |                 | Homepage                        |                  |
+      |                 |                                 |                  |
+3.    |    Add Client   | Able to add new client with     |        P         |  Can be improved to have better user experience by adding a pop message saying:
+      |                 | name and status                 |                  |  "You have added {client name} to the list, this is the client's ID {client ID}".
+      |                 |                                 |                  |
+4.    |  Error message  | Error message pop up if no name |        P         |  Can be improved to having a pop up notification.
+      |                 | or status is keyed in.          |                  |
+      |                 | Error message should be:        |                  |
+      |                 | Client's Name or Activity       |                  |
+      |                 | status missing!                 |                  |
+      |                 |                                 |                  |
+5.    |  Remove Client  | Able to remove client from list |        P         |  Can be improved to having the ability to undo delete by having a pop message asking if the user
+      |                 |                                 |                  |  is sure to remove client from the list.
+6.    |   Search Bar    | Able to search for client       |        P         |        
+      |                 | using their name or ID          |                  |
+      |                 |                                 |                  |
+7.    | Details button  | Should bring you to a new page  |        F         |
+      |                 | that shows the details of the   |                  |
+      |                 | client                          |                  |
